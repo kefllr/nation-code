@@ -1,0 +1,87 @@
+.order-section {
+    max-width: 375px;
+    background-color: #1C2225;
+}
+
+.order {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order-girl {
+    margin-bottom: 90px;
+}
+
+
+.order-title {
+    width: 335px;
+    font-family: Manrope;
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.your-order {
+    color: #ECD979;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+}
+
+.form-input {
+    width: 335px;
+    background-color: transparent;
+    padding: 14px 16px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    margin-bottom: 20px;
+}
+
+.form-input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.comments {
+    width: 335px;
+    background-color: transparent;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    resize: none;
+    margin-bottom: 40px;
+}
+
+.comments::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 145px;
+    height: 49px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: #FCF9F9;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.order-arrow {  
+    fill:#ECD979;   
+}
