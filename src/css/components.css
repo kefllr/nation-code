@@ -1,0 +1,15 @@
+body{
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.56px;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;  
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
