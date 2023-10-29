@@ -48,6 +48,7 @@
     margin-left: 70px;
     margin-right: auto;
     max-height: 49px;
+    background-color: #1C2225;
 }
 
 .arrow-btn {
@@ -144,9 +145,9 @@
         text-align: left;
         position: absolute;
         top: 204px;
-        right: 230px;
+        right: 220px;
         margin-left: 40px;
-        width: 518px;
+        width: 528px;
     }
 
     .hero-btn {
@@ -181,8 +182,9 @@
         font-weight: 400;
         line-height: 74px;
         letter-spacing: -1.92px;
-        width: 632px;
+        width: 622px;
         top: 166px;
+        right: 286px;
         text-align: left;
     }
 
