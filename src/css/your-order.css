@@ -1,6 +1,6 @@
 
 .order-section {
-    background-color: #2E2E2E;
+    background-color:#1C2225;
 }
 
 .order-girl {
@@ -81,6 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 14px 36px;
     gap: 10px;
     width: 145px;
     height: 49px;
@@ -104,3 +105,51 @@
 .order-arrow {  
     fill:#ECD979;   
 }
+
+@media screen and (min-width: 768px) {
+    .order-girl {
+        min-height: 776px;
+        background-image: url(./img/tablet/order-girl-tablet.jpg);
+        margin-bottom: 100px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-girl {
+            background-image: url(../img/tablet/order-girl-tablet-2x.jpg);
+        }
+    }
+
+    .order-title {
+        width: 560px;
+        color: #FCF9F9;
+        font-size: 44px;    
+        line-height: 1.32;
+        margin-bottom: 40px;
+        text-align: start;
+        }
+
+    .your-order {    
+        font-size: 44px;
+        line-height: 1.32;
+        }
+
+    .form-input {
+        width: 508px;
+        margin-right: auto;
+    }
+
+    .comments {
+        width: 508px;
+    }    
+    
+    .form-btn {
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+    margin: 0;
+    }
+    }
+    
