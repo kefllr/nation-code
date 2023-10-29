@@ -5,10 +5,19 @@
             <use href="/src/img/all-svg.svg#icon-arrow"></use>
         </svg>
     </button>
-    <img srcset="
-        /src/img/mobile/hero-mobile.jpg,
-        /src/img/mobile/hero-mobile-2x.jpg
-        " src="/src/img/mobile/hero-mobile.jpg" width="335" height="545" alt="hero-girl" />
+    <picture>
+        <source srcset="
+                                /src/img/mobile/hero-mobile.jpg,
+                                /src/img/mobile/hero-mobile-2x.jpg" media="(max-width: 767px)" width="335" height="545" />
+        <source srcset="
+                                /src/img/tablet/hero-tablet-1.jpg,
+                                /src/img/tablet/hero-tablet-1-2x.jpg" media="(min-width: 768px) and (max-width: 1279px)"
+            width="413" height="575" />
+        <source srcset="
+                                /src/img/pc/hero-pc-1.jpg,/src/img
+                                /src/img/pc/hero-pc-1-2x.jpp" media="min-width: 1280px" width="392" height="545" />
+        <img src="/src/img/pc/hero-pc-1.jpg" alt="Girl">
+    </picture>
         <div class="star-hero">
             <svg class="star-icon" width="52" height="51">
                 <use href="/src/img/all-svg.svg#icon-star"></use>
