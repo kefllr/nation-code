@@ -1,0 +1,31 @@
+body{
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.56px;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+@media screen and (min-width:768px) {
+    .container{
+        padding-left: 38px;
+        padding-right: 38px;
+        margin: 0 0;
+    }
+    
+}
+@media screen and (min-width:1280px) {
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 0 0;
+    }
+    
+}
