@@ -1,7 +1,7 @@
 footer{
     padding: 40px 0 292px;
     background-color: #1C2225;
-    background-image: url(../img/ornament-yellow.png);
+    background-image: url(../img/mobile/footer-ornament-moble.png);
     background-repeat: no-repeat;
     background-position: center 437px;
     
@@ -59,9 +59,19 @@ footer{
     .list-nav-footer{
         gap: 25px;
         margin-bottom: 117px;
+        margin-bottom: 80px;
     }
     footer{
-        background-position: 594px center;
-        background-size: 100%;
+        padding: 40px 0 40px;
+        background-image: url(../img/tablet/footer-ornament.png);
+        background-position: right center;
+        background-size: 174px 401px;
+
+    }
+    .title-footer{
+        max-width:  521px;
+        font-size: 54px;
+        line-height: 1.18; /* 118.519% */
+        letter-spacing: -1.62px;    
     }
 }
