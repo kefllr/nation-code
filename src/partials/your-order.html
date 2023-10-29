@@ -1,28 +1,22 @@
 <section class="order-section">
- <div class="order-girl">
-        <picture>
-            <source srcset="./img/mobile/order-girl-mobile.jpg 1x, 
-            ./img/mobile/order-girl-mobile-2x.jpg 2x" media="(max-width: 767px)" />
-            <source srcset="./img/tablet/order-girl-tablet.jpg 1x, ./img/tablet/order-girl-tablet-2x.jpg 2x" media="(min-width: 768px)" />
-            <source srcset="./img/pc/order-girl-pc.jpg 1x, ./img/pc/order-girl-pc-2x.jpg 2x" media="(min-width: 1280px)" />
-            <source srcset="./img/pc-bigger/order-girl.jpg 1x, ./img/pc-bigger/order-girl-2x.jpg 2x" media="(min-width: 1440px)" />
-            <img src="./img/pc-bigger/order-girl.jpg" height="776" width="1440" alt="girl in a green embroidered shirt" />
-        </picture>
- </div>
-<div class="order">
- 
-    <h2 class="order-title"><span class="your-order">Your order</span> is our priority: Personalized approach and quality of service</h2>
-    <form>
-        <input type="text" name="username" placeholder="Enter your full name" class="form-input">
-        <input type="email" name="user-email" placeholder="Enter your email" class="form-input">
-        <textarea name="comments" placeholder="Comments" class="comments"></textarea>
-        <button type="submit" class="form-btn">Send 
-        <a href="" class="form-icon"><svg  class="order-arrow" width="26" height="10">
-            <use href="./img/all-svg.svg#icon-arrow">
-          </svg>
-        </a>
-        </button>
-    </form>
-</div>
+<div class="container">
+     <div class="order-girl">
+           
+     </div>
+    <div class="order">
+     
+        <h2 class="order-title"><span class="your-order">Your order</span> is our priority: Personalized approach and quality of service</h2>
+        <form>
+            <input type="text" name="username" placeholder="Enter your full name" class="form-input" required>
+            <input type="email" name="user-email" placeholder="Enter your email" class="form-input" required>
+            <textarea name="comments" placeholder="Comments" class="comments"></textarea>
+            <button type="submit" class="form-btn">Send 
+            <svg  class="order-arrow" width="26" height="10">
+                <use href="./img/all-svg.svg#icon-arrow">
+              </svg>
+            </button>
+        </form>
+    </div>
+</container>
 
 </section>
