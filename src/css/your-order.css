@@ -1,5 +1,4 @@
 
-
 .order-section {
     background-color: #2E2E2E;
 }
@@ -12,25 +11,23 @@
 }
 
 .order-girl {
-    max-width: 375px;
+    max-width: 100%;
     height: 550px;
-    margin-bottom: 90px;
     background-image: url(./img/mobile/order-girl-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 90px;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .order-girl {
-        background-image: url(./img/mobile/order-girl-mobile-2x.jpg);
+    background-image: url(../img/mobile/order-girl-mobile-2x.jpg);
     }
-
 }
 .order-title {
     width: 335px;
-    font-family: Manrope;
     color: #FCF9F9;
     font-size: 32px;
     font-weight: 500;
