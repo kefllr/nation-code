@@ -1,17 +1,11 @@
-.container {
-max-width: 375px;
-margin: 0 auto;
-padding-left: 20px;
-padding-right: 20px;
-}
-
 
 .our-collection {
 background-color: #1C2225;
-background-image: url(../img/ornament-yellow.png);
+background-image: url(../img/mobile/collection-ornament-mobile.png);
 background-repeat: no-repeat;
-background-size: 199px 177px;
-background-position: -126px 200px;
+background-size: 72px 177px;
+background-position: left 254px;
+padding-bottom: 80px;
 
 }
 
@@ -19,7 +13,7 @@ background-position: -126px 200px;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .our-collection {
-        background-image: url(../img/ornament-yellow-2x.png);
+        background-image: url(../img/mobile/collection-ornament-mobile-2x.png);
     }
 }
 
@@ -62,13 +56,24 @@ font-family: Manrope;
 
 
 @media screen and (min-width: 768px) {
-.container {
-max-width: 768px;
-padding-left: 32px;
-padding-right: 32px;
- }
 
- .collection-list {
+.our-collection {
+        background-image: url(../img/tablet/collection-ornament-tablet.png);
+        background-repeat: no-repeat;
+        background-size: 114px 300px;
+        background-position: left 154px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .our-collection {
+            background-image: url(../img/tablet/collection-ornament-tablet-2x.png);
+        }
+    }
+ 
+    .collection-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -108,12 +113,22 @@ letter-spacing: 0.9px;
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding-left: 98px;
-        padding-right: 98px;
+
+.our-collection {
+        background-image: url(../img/pc/collection-ornament-pc.png);
+        background-repeat: no-repeat;
+        background-size: 169px 300px;
+        background-position: left 167px;
+
     }
 
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .our-collection {
+            background-image: url(../img/pc/collection-ornament-pc-2x.png);
+        }
+    }
 
 .collection-list {
     display: flex;
@@ -149,17 +164,28 @@ letter-spacing: 0.9px;
 }
 
 .our-collection {
-    padding-bottom: 150px;
+    padding-bottom: 130px;
 }
 
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+
+    .our-collection {
+            background-image: url(../img/pc/collection-ornament-pc.png);
+            background-repeat: no-repeat;
+            background-size: 169px 300px;
+            background-position: left 225px;
+    
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .our-collection {
+                background-image: url(../img/pc/collection-ornament-pc-2x.png);
+            }
+        }
 
 
     .collection-list {
@@ -172,9 +198,6 @@ letter-spacing: 0.9px;
         width: calc((100% - 40px) / 3);
     }
 
-    .merch {
-        padding: 18px 0 20px 0;
-    }
 
     .collection-title {
         font-size: 44px;
