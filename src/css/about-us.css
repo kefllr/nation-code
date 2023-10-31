@@ -1,0 +1,151 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-us {
+  background: #1c2225;
+  background-image: url(../img/ornament-transparent.png);
+  background-repeat: no-repeat;
+  background-position: 127px 600px;
+}
+
+.about-us div:nth-child(2) {
+  margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .our-collection {
+    background-image: url(../img/ornament-transparent-2x.png);
+  }
+}
+
+.about-title {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  margin-bottom: 20px;
+}
+
+.about-text-next {
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  margin-bottom: 50px;
+}
+
+.image {
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .about-us {
+    background-position: 145% 105%;
+  }
+
+  .about-title {
+    font-size: 44px;
+    line-height: 64px;
+    letter-spacing: -1.32px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .about-text-next {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us {
+    display: flex;
+    flex-wrap: wrap;
+    background-position: 115% 95%;
+    padding-right: 100px;
+  }
+
+  .container {
+    width: 40%;
+  }
+
+  .about-title {
+    font-size: 44px;
+    line-height: 64px;
+    letter-spacing: -1.32px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .about-text-next {
+    font-size: 16px;
+  }
+
+  .about-us div:nth-child(2) {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us {
+    display: flex;
+    flex-wrap: wrap;
+    background-position: 115% 95%;
+    padding-right: 250px;
+  }
+
+  .container {
+    width: 40%;
+  }
+
+  .about-title {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -1.32px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .about-text-next {
+    font-size: 16px;
+  }
+
+  .about-us div:nth-child(2) {
+    margin-left: 50px;
+  }
+}
