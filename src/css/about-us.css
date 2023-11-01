@@ -4,11 +4,19 @@
   background: #1c2225;
   background-image: url(../img/ornament-transparent.png);
   background-repeat: no-repeat;
-  background-position: 127px 600px;
+  background-position: right -209px  bottom 18px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .about-us div:nth-child(2) {
   margin: 0 auto;
+}
+.cont-about{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items:center;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -60,7 +68,9 @@
 
 
   .about-us {
-    background-position: 145% 105%;
+    background-position: right -176px bottom 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .about-title {
@@ -76,16 +86,31 @@
   .about-text-next {
     font-size: 16px;
   }
+  .cont-about{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items:center;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us {
     display: flex;
     flex-wrap: wrap;
-    background-position: 115% 95%;
-    padding-right: 100px;
+    background-position: right -120px bottom 70px;
+    padding-top: 150px;
+    padding-bottom:150px ;
+    
   }
-
+  .cont-about{
+    display: flex;
+    gap: 50px;
+    align-items:center;
+  }
+  .cont-text-about{
+    width:436px ;
+  }
 
 
   .about-title {
@@ -112,7 +137,7 @@
     display: flex;
     flex-wrap: wrap;
     background-position: 115% 95%;
-    padding-right: 250px;
+  
   }
 
 
@@ -133,5 +158,12 @@
 
   .about-us div:nth-child(2) {
     margin-left: 50px;
+  }
+  .image-about{
+    width: 709px;
+
+  }
+  .cont-text-about{
+    width:481px ;
   }
 }
