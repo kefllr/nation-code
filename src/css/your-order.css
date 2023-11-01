@@ -248,6 +248,10 @@
             background-image: url(../img/pc-bigger/order-girl-2x.jpg);
         }
     }
+
+    .order-title {
+        width: 666px;
+    }
     .order-pattern {
         background-position: left -220px bottom 0;
         padding-bottom: 119px;
