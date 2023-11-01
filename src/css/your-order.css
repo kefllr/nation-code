@@ -9,7 +9,7 @@
     background-image: url(../img/mobile/order-girl-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin-bottom: 90px;
 }
 
@@ -115,7 +115,7 @@
 
     .order-girl {
         min-height: 776px;
-        background-image: url(./img/tablet/order-girl-tablet.jpg);
+        background-image: url(../img/tablet/order-girl-tablet.jpg);
         margin-bottom: 100px;
     }
 
@@ -162,7 +162,7 @@
     .order-pattern {
         display: flex;
         padding-bottom: 79px;
-        background-image: url(./img/ornament-transparent.png);
+        background-image: url(../img/ornament-transparent.png);
         background-size: 545px 484px;
         background-repeat: no-repeat;
         background-position: left -222px bottom 0;
@@ -179,6 +179,11 @@
     .order-waistcoat {
         display: block;
         padding-left: 98px;
+        
+    }
+
+    .img-order{
+        width: 638px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -233,7 +238,7 @@
 @media screen and (min-width: 1440px) {
 
     .order-girl {
-        background-image: url(./img/pc-bigger/order-girl.jpg);
+        background-image: url(../img/pc-bigger/order-girl.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -243,7 +248,6 @@
             background-image: url(../img/pc-bigger/order-girl-2x.jpg);
         }
     }
-
     .order-pattern {
         background-position: left -220px bottom 0;
         padding-bottom: 119px;
@@ -251,6 +255,7 @@
 
     .order-waistcoat {
         padding-left: 100px;
+        height: 521px;
     }
 
     .order-content {
