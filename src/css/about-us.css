@@ -1,9 +1,4 @@
-.container {
-  width: 90%;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 
 .about-us {
   background: #1c2225;
@@ -62,11 +57,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 90%;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+
 
   .about-us {
     background-position: 145% 105%;
@@ -95,9 +86,7 @@
     padding-right: 100px;
   }
 
-  .container {
-    width: 40%;
-  }
+
 
   .about-title {
     font-size: 44px;
@@ -126,9 +115,6 @@
     padding-right: 250px;
   }
 
-  .container {
-    width: 40%;
-  }
 
   .about-title {
     font-size: 44px;
