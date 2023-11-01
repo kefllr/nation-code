@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 
     
-    <script type="module" crossorigin src="/project-08/assets/index-38b3c269.js"></script>
-    <link rel="stylesheet" href="/project-08/assets/index-dc6b0a87.css">
+    <script type="module" crossorigin src="/project-08/assets/index-89a6ff6b.js"></script>
+    <link rel="stylesheet" href="/project-08/assets/index-f93af0e3.css">
   </head>
   <body>
     
@@ -238,24 +238,35 @@
 </section>
 
       <section class="order-section">
-    <div class="order-girl">    
+    <div class="order-girl">
     </div>
-<div class="container">
-    
-        <h2 class="order-title"><span class="your-order">Your order</span> is our priority: Personalized approach and quality of service</h2>
-        <form>
-            <input type="text" name="username" placeholder="Enter your full name" class="form-input" required>
-            <input type="email" name="user-email" placeholder="Enter your email" class="form-input" required>
-            <textarea name="comments" placeholder="Comments" class="comments"></textarea>
-            <button type="submit" class="form-btn">Send 
-            <svg  class="order-arrow" width="26" height="10">
-                <use href="/project-08/assets/all-svg-2ef8c6a7.svg#icon-arrow">
-              </svg>
-            </button>
-        </form>
+    <div class="order-content">
+        <div class="container order-cont">
 
-</div>
-
+            <h2 class="order-title"><span class="your-order">Your order</span> is our priority: Personalized approach
+                and quality of service</h2>
+            <form class="order-form">
+                <input type="text" name="username" placeholder="Enter your full name" class="form-input"
+                    patten="[A-Za-zА-Яа-яЁё]" required>
+                <input type="email" name="user-email" placeholder="Enter your email" class="form-input"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                <textarea name="comments" type="submit" placeholder="Comments" class="comments"></textarea>
+                <button type="submit" class="form-btn">Send
+                    <svg class="order-arrow" width="26" height="10">
+                        <use href="/project-08/assets/all-svg-2ef8c6a7.svg#icon-arrow">
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="order-pattern">
+            <picture class="order-waistcoat">
+                <source srcset="/project-08/assets/order-vyshivanka-c2667f2f.jpg 1x, /project-08/assets/order-vyshivanka-2x-2a848909.jpg 2x" media="(min-width: 1440px)" />
+                <source srcset="/project-08/assets/order-vyshivanka-c2667f2f.jpg 1x, /project-08/assets/order-vyshivanka-2x-2a848909.jpg 2x" media="(min-width: 1280px)" />
+                <source srcset="/project-08/assets/order-vyshivanka-tablet-93332354.jpg 1x, /project-08/assets/order-vyshivanka-tablet-2x-3ce52013.jpg 2x" media="(min-width: 768px)" />
+                <img src="/project-08/assets/order-vyshivanka-c2667f2f.jpg" alt="waistcoat with ornament" height="521" width="638">
+            </picture>
+        </div>
+    </div>
 </section>
       
     </main>
