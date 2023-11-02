@@ -9,7 +9,7 @@
     background-image: url(../img/mobile/order-girl-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     margin-bottom: 90px;
 }
 
@@ -117,8 +117,8 @@
 @media screen and (min-width: 768px) {
 
     .order-girl {
-        min-height: 776px;
-        background-image: url(../img/tablet/order-girl-tablet.jpg);
+        height: 776px;
+        background-image: url(./img/tablet/order-girl-tablet.jpg);
         margin-bottom: 100px;
     }
 
@@ -191,7 +191,7 @@
 }
 @media screen and (min-width: 1280px) {
     .order-girl {
-        background-image: url(../img/pc/order-girl-pc.jpg);
+        background-image: url(./img/pc/order-girl-pc.jpg);
         margin-bottom: 150px;
     }
 
@@ -250,6 +250,10 @@
         .order-girl {
             background-image: url(../img/pc-bigger/order-girl-2x.jpg);
         }
+    }
+
+    .order-title {
+        width: 666px;
     }
     .order-pattern {
         background-position: left -220px bottom 0;
