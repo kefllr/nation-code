@@ -2,7 +2,7 @@
 
 .about-us {
   background: #1c2225;
-  background-image: url(../img/ornament-transparent.png);
+  background-image: url(./img/ornament-transparent.png);
   background-repeat: no-repeat;
   background-position: right -209px  bottom 18px;
   padding-top: 80px;
@@ -23,7 +23,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .our-collection {
-    background-image: url(../img/ornament-transparent-2x.png);
+    background-image: url(./img/ornament-transparent-2x.png);
   }
 }
 

@@ -6,7 +6,7 @@
 .order-girl {
     max-width: 100%;
     height: 550px;
-    background-image: url(../img/mobile/order-girl-mobile.jpg);
+    background-image: url(./img/mobile/order-girl-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -17,7 +17,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .order-girl {
-        background-image: url(../img/mobile/order-girl-mobile-2x.jpg);
+        background-image: url(./img/mobile/order-girl-mobile-2x.jpg);
     }
 }
 
@@ -126,7 +126,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .order-girl {
-            background-image: url(../img/tablet/order-girl-tablet-2x.jpg);
+            background-image: url(./img/tablet/order-girl-tablet-2x.jpg);
         }
     }
 
@@ -165,7 +165,7 @@
     .order-pattern {
         display: flex;
         padding-bottom: 79px;
-        background-image: url(../img/ornament-transparent.png);
+        background-image: url(./img/ornament-transparent.png);
         background-size: 545px 484px;
         background-repeat: no-repeat;
         background-position: left -222px bottom 0;
@@ -175,7 +175,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .order-pattern {
-            background-image: url(../img/ornament-transparent-2x.png);
+            background-image: url(./img/ornament-transparent-2x.png);
         }
     }
 
@@ -199,7 +199,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .order-girl {
-            background-image: url(../img/pc/order-girl-pc-2x.jpg);
+            background-image: url(./img/pc/order-girl-pc-2x.jpg);
         }
     }
 
@@ -241,14 +241,14 @@
 @media screen and (min-width: 1440px) {
 
     .order-girl {
-        background-image: url(../img/pc-bigger/order-girl.jpg);
+        background-image: url(./img/pc-bigger/order-girl.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .order-girl {
-            background-image: url(../img/pc-bigger/order-girl-2x.jpg);
+            background-image: url(./img/pc-bigger/order-girl-2x.jpg);
         }
     }
 

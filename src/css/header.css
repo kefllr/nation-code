@@ -200,7 +200,7 @@
 }
 
 .header-mob {
-    background-image: url(../img/mobile/modal-mobile-vishivanka.png);
+    background-image: url(./img/mobile/modal-mobile-vishivanka.png);
     background-repeat: no-repeat;
     background-size: 274px 251px;
     background-position: center bottom;
@@ -212,7 +212,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .section-one {
-        background-image: url(../img/mobile/modal-mobile-vishivanka-2x.png);
+        background-image: url(./img/mobile/modal-mobile-vishivanka-2x.png);
     }
 }
 
@@ -311,7 +311,7 @@
 
     .header-mob {
         max-width: 380px;
-        background-image: url(../img/tablet/modal-tablet-vyshivanka.png);
+        background-image: url(./img/tablet/modal-tablet-vyshivanka.png);
         background-repeat: no-repeat;
         background-size: 380px 363px;
         background-position: center bottom;
@@ -322,7 +322,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .section-one {
-            background-image: url(../img/tablet/modal-tablet-vyshivanka-2x.png);
+            background-image: url(./img/tablet/modal-tablet-vyshivanka-2x.png);
         }
     }
 
