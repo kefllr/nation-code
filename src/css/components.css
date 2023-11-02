@@ -9,6 +9,9 @@ body{
 /*picture{
     display: flex;
 }*/
+section{
+    border: none;
+}
 .container{
     width: 100%;
     max-width: 1440px;  
