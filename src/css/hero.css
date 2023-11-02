@@ -1,7 +1,5 @@
 .hero-container {
-    padding: 0 20px;
     padding-top: 60px;
-    padding-bottom: 80px;
     background-color: #1C2225;
 }
 
@@ -28,29 +26,35 @@
 
 .hero-btn {
     color: #FCF9F9;
-    font-family: Manrope;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     letter-spacing: -0.56px;
     text-transform: uppercase;
-    display: inline-flex;
+    display: flex;
     height: 49px;
+    width:168px ;
     padding: 14px 36px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-shrink: 0;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     margin-bottom: 40px;
     margin-left: 70px;
-    margin-right: auto;
     max-height: 49px;
     background-color: #1C2225;
-}
 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-hero{
+    width: 0;
+    height: 0;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    border-color:#ECD979 ;
+}
 .arrow-btn {
     fill: var(--yellow, #ECD979);
 }
@@ -58,12 +62,12 @@
 .hero-icon {
     display: none;
 }
-
-@media screen and (min-width:375px) {
-    .hero-container {
-        min-width: 375px;
-    }
+.img-hero{
+    order: -1;
+    display: flex;
+    min-width: 335px;
 }
+
 
 @media screen and (min-width: 768px) {
 
@@ -71,10 +75,7 @@
         min-width: 100%;
         position: relative;
         padding-top: 108px;
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-bottom: 100px;
+
     }
 
     .hero-title {
@@ -85,21 +86,26 @@
     }
 
     .hero-btn {
-        margin-left: 151px;
+        margin-left: 141px;
         font-size: 16px;
     }
 
     .star-hero {
-        position: absolute;
         display: flex;
+        position: relative;
         flex-direction: column;
         gap: 16px;
         justify-content: center;
         align-items: center;
         text-align: center;
         width: 115px;
-        right: 32px;
-        top: 80px;
+        height: 111px;
+        left: 40px;
+        bottom: 30px;
+    }
+    .cont-hero-mini{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .star-text {
@@ -117,57 +123,87 @@
     .star-icon {
         fill: var(--yellow, #ECD979);
     }
-
-    .hero-icon {
-        position: absolute;
-        right: 96.84px;
-        bottom: 5px;
+    .icon-hero{
+        display: flex;
+        max-width: 142px;
+    }
+    .img-hero{
+       
+        display: flex;
+        max-width: 413px;
+        margin-right: auto;
+    }
+    .hero-icon{
+        display: flex;
+    }
+    .cont-img-icon-hero{
+        order: -1;
+        display: flex;
+        align-items: flex-end;
     }
 
-    .hero-icon {
-        display: block;
-    }
+
 }
 
 @media screen and (min-width: 1280px) {
 
     .hero-container {
-        min-width: 100%;
-        padding-left: 100px;
         padding-top: 100px;
-        padding-bottom: 150px;
-        max-width: 1280px;
-        padding-right: 100px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: left;
+        
     }
 
     .hero-title {
-        text-align: left;
-        position: absolute;
-        top: 204px;
-        right: 220px;
         margin-left: 40px;
-        width: 528px;
+        width: 518px;
+        font-size: 54px;
+        font-weight: 400;
+        line-height: 1.18; /* 118.519% */
+        letter-spacing: -1.62px;
     }
 
     .hero-btn {
-        position: absolute;
-        bottom: 269px;
-        right: 439px;
+       margin-left: 181px;
+       position: relative;
+       bottom: 64px;
+       right: 239px;
     }
 
     .star-hero {
-        position: absolute;
-        top: 114px;
-        right: 100px;
+        position: relative;
+        bottom: 370px;
+        left: 430px;
+        
     }
+    .cont-hero{
+        display: flex;
+        
+    }
+    .img-hero{
+        
+        display: flex;
+        min-width: 392px;
+    }
+    .hero-title{
+        position: relative;
+        right: 133px;
+        margin-top:94px;
+        height: 192px;
+        order: -1;
+    }
+    .hero-icon{
+        display: flex;
+    }
+    .icon-hero{
+        display: block;
+        min-width: 139px;
+        position: relative;
+        left: 549px;
+        margin-left: auto;
+        
+    }
+    
 
-    .hero-icon {
-        position: absolute;
-        bottom: 50px;
-    }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -178,28 +214,37 @@
 
     .hero-title {
         color: #FCF9F9;
-        font-family: Manrope;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 74px;
-        letter-spacing: -1.92px;
         width: 622px;
-        top: 166px;
-        right: 286px;
-        text-align: left;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 1.15em; /* 115.625% */
+        letter-spacing: -1.92px;
     }
 
     .star-hero {
-        top: 166px;
+        display: flex;
+
     }
 
     .hero-btn {
-        right: 638.74px;
+        position: relative;
+        bottom: 50px;
+    }
+    .icon-hero{
+        display: block;
+        min-width: 139px;
+        position: relative;
+        left: 709px;
+        margin-left: auto;
+        
+    }
+    .star-hero {
+        position: relative;
+        bottom: 290px;
+        left: 580px;
+        
     }
 
-    .hero-icon {
-        right: 100px;
-    }
+  
 
 }
