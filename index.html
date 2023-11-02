@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 
     
-    <script type="module" crossorigin src="/project-08/assets/index-4a29bb76.js"></script>
-    <link rel="stylesheet" href="/project-08/assets/index-4e3ab30e.css">
+    <script type="module" crossorigin src="/project-08/assets/index-0c8967e3.js"></script>
+    <link rel="stylesheet" href="/project-08/assets/index-af222596.css">
   </head>
   <body>
     <header class="header">
@@ -592,22 +592,26 @@ PC9kZWZzPg0KPC9zdmc+DQo="></a>
     <div class="cont-img-icon-hero">
         <div class="img-hero">
             <picture >
-                <source srcset="/project-08/assets/hero-mobile-88eac368.jpg , /project-08/assets/hero-mobile-2x-7239dec0.jpg " media="(max-width: 767px)" width="335" height="545" />
-                 <source srcset="/project-08/assets/hero-tablet-1-adb3865a.jpg , /project-08/assets/hero-tablet-1-2x-d8723e34.jpg " media="(min-width: 768px) and (max-width: 1279px)" width="413"
+                <source srcset="
+                        ../img/mobile/hero-mobile.jpg 1x,
+                        ../img/mobile/hero-mobile-2x.jpg 2x" media="(max-width: 767px)" width="335" height="545" />
+                 <source srcset="
+                        ../img/tablet/hero-tablet-1.jpg 1x,
+                        ../img/tablet/hero-tablet-1-2x.jpg 2x" media="(max-width: 1279px)" width="413"
                      height="575" />
                 <source srcset="
-                    ./img/pc/hero-pc-1.jpg,
-                    ./img/pc/hero-pc-1-2x.jpp" media="min-width: 1280px" width="392" height="545" />
-                <img src="/project-08/assets/hero-pc-1-5c8137cd.jpg" alt="Kolya">
+                    ../img/pc/hero-pc-1.jpg 1x,
+                    ../img/pc/hero-pc-1-2x.jpg 2x" media="(min-width: 1280px)" width="392" height="545" />
+                <img srcset="../img/pc/hero-pc-1-2x.jpg" src="../img/pc/hero-pc-1.jpg" alt="Kolya">
             </picture></div>
         <div class="icon-hero">
             <picture >
                 <source srcset="
-                     ../img/hero-icon.png,
-                     ../img/hero-icon-2x.png" media="(min-width: 768px) and (max-width: 1279px)" width="142" height="156" />
+                     ../img/hero-icon.png 1x ,
+                     ../img/hero-icon-2x.png 2x" media="(min-width: 768px) and (max-width: 1279px)" width="142" height="156" />
                 <source srcset="
-                     ../img/hero-icon-pc.png,
-                     ../img/hero-icon-pc-2x.png" media="(min-width: 1280px)" width="142" height="156" />
+                     ../img/hero-icon-pc.png 1x,
+                     ../img/hero-icon-pc-2x.png 2x" media="(min-width: 1280px)" width="142" height="156" />
                  <img class="hero-icon" src="../img/hero-icon.png" alt="hero-icon">
             </picture></div>
     </div>
@@ -865,10 +869,13 @@ PC9kZWZzPg0KPC9zdmc+DQo="></a>
         </div>
         <div class="order-pattern">
             <picture class="order-waistcoat">
-                <source srcset="/project-08/assets/order-vyshivanka-c2667f2f.jpg 1x, /project-08/assets/order-vyshivanka-2x-2a848909.jpg 2x" media="(min-width: 1440px)" />
-                <source srcset="/project-08/assets/order-vyshivanka-c2667f2f.jpg 1x, /project-08/assets/order-vyshivanka-2x-2a848909.jpg 2x" media="(min-width: 1280px)" />
-                <source srcset="/project-08/assets/order-vyshivanka-tablet-93332354.jpg 1x, /project-08/assets/order-vyshivanka-tablet-2x-3ce52013.jpg 2x" media="(min-width: 768px)" />
-                <img class="img-order" src="/project-08/assets/order-vyshivanka-c2667f2f.jpg" alt="waistcoat with ornament" height="521" width="524">
+                <source srcset="../img/pc-bigger/order-vyshivanka.jpg 1x, 
+                        ../img/pc-bigger/order-vyshivanka-2x.jpg 2x" media="(min-width: 1440px)" />
+                <source srcset="../img/pc/order-vyshivanka-pc.jpg 1x, 
+                        ../img/pc/order-vyshivanka-pc-2x.jpg 2x" media="(min-width: 1280px)" />
+                <source srcset="../img/tablet/order-vyshivanka-tablet.jpg 1x, 
+                        ../img/tablet/order-vyshivanka-tablet-2x.jpg 2x" media="(min-width: 768px)" />
+                <img class="img-order" src="../img/pc-bigger/order-vyshivanka.jpg" alt="waistcoat with ornament" height="521" width="524">
             </picture>
         </div>
     </div>
